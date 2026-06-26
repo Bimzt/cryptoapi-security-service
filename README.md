@@ -1,6 +1,6 @@
 # Cryptographic Security & Data Integrity Service
 
-> A RESTful API service built with **FastAPI** that implements asymmetric cryptography for data security, message integrity verification, and digital signing of documents — supporting **RSA**, **ECDSA (secp256k1)**, and **Ed25519** algorithms.
+> A RESTful API service built with **FastAPI** that implements asymmetric cryptography for data security, message integrity verification, and digital signing of documents supporting **RSA**, **ECDSA (secp256k1)**, and **Ed25519** algorithms.
 
 ---
 
@@ -8,11 +8,11 @@
 
 CryptoAPI is a backend security service that demonstrates a practical implementation of Public Key Infrastructure (PKI) concepts. The system enables:
 
-- **Key-based user identity** — users are registered via their public key, not a password
+- **Key-based user identity** - users are registered via their public key, not a password
 - **End-to-end message relay** with mandatory signature verification before delivery
 - **PDF document signing and verification** using cryptographic checksums
 - **Session-based authentication** with time-limited bearer tokens
-- **Multi-algorithm support** — the server auto-detects RSA, EC, or Ed25519 key types
+- **Multi-algorithm support** - the server auto-detects RSA, EC, or Ed25519 key types
 
 This project was built to explore how cryptographic primitives are applied in real-world API services, translating theoretical security concepts (digital signatures, hash integrity, asymmetric key pairs) into working endpoints.
 
@@ -122,7 +122,7 @@ This project was built to explore how cryptographic primitives are applied in re
 
 ### Prerequisites
 
-- Python **3.10** (pinned — see `pyproject.toml`)
+- Python **3.10** (pinned - see `pyproject.toml`)
 - [`uv`](https://docs.astral.sh/uv/) package manager
 
 ```bash
@@ -133,8 +133,8 @@ pip install uv
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/Bimzt/Data-security-and-integrity-cryptographic-API-services
-cd Data-security-and-integrity-cryptographic-API-services
+git clone https://github.com/Bimzt/cryptoapi-security-service
+cd cryptoapi-security-service
 ```
 
 ### 2. Install Dependencies
